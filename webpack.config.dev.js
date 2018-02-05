@@ -9,8 +9,12 @@ module.exports = {
 	},
 	plugins:[
 		new HtmlWebpackPlugin({
-			filename:'inex.html',
+			filename:'index.html',
 			template:'src/index.html'
 		})
-	]
+	],
+	devServer:{
+		open:true,
+		port:9000
+	}
 };
