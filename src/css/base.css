@@ -1,1 +1,8 @@
 body{font-size: 24px;}
+
+@font-face{
+	font-family: 'f';
+	src: url('../fonts/fontawesome-webfont.eot');
+}
+
+.f{font-family: f;font-size: 50px;}
